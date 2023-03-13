@@ -3,17 +3,26 @@ font-family: "Roboto", sans-serif; */
 
 :root {
   --mostused-font-family: "Roboto", sans-serif;
-  --default-color: #ffffff;
+  --default-color: white;
   --button-font-family: "Montserrat", sans-serif;
 }
 body {
+  background-color: #a52a2a;
+  margin: 20px 20px;
+  padding: 0px;
+}
+/*
+.seperate {
   background-color: brown;
   background-image: url(../images/extra.jpg);
-}
+} */
+
 .everything {
   font-family: var(--mostused-font-family);
   text-align: center;
   padding: 160px 50px;
+  background-color: brown;
+  background-image: url(../images/extra.jpg);
 }
 p,
 h1,
@@ -47,5 +56,6 @@ h1 {
   color: #272142;
   border-radius: 80px;
   padding: 18px 30px;
-  margin: 0;
+}
+.therest {
 }
