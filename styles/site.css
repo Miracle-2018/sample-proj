@@ -1,12 +1,51 @@
 /*font-family: "Montserrat", sans-serif;
 font-family: "Roboto", sans-serif; */
 
-h1 {
-  color: aqua;
-  font-family: "Roboto", sans-serif;
+:root {
+  --mostused-font-family: "Roboto", sans-serif;
+  --default-color: #ffffff;
+  --button-font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: brown;
+  background-image: url(../images/extra.jpg);
+}
+.everything {
+  font-family: var(--mostused-font-family);
+  text-align: center;
+  padding: 160px 50px;
+}
+p,
+h1,
+h2 {
+  color: var(--default-color);
   font-weight: bold;
 }
-p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium;
+h1 {
+  font-size: 72px;
+  line-height: 84.38px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+.name {
+  font-size: 24px;
+  line-height: 28.13px;
+  margin: 0;
+}
+.content {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  margin: 0;
+}
+.btn-fav {
+  background: var(--default-color);
+  font-family: var(--button-font-family);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #272142;
+  border-radius: 80px;
+  padding: 18px 30px;
+  margin: 0;
 }
